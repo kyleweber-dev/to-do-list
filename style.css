@@ -103,9 +103,9 @@ main {
   width: 100%;
   display: flex;
   justify-content: start;
-  align-items: center;
+  align-items: stretch;
   background-color: rgb(255, 255, 255);
-  height: 35px;
+  min-height: 35px;
   list-style: none;
   border-radius: 5px;
   overflow: hidden;
@@ -129,6 +129,8 @@ main {
 
 .itemBtnContainer {
   display: flex;
+  align-items: stretch;
+  height: auto;
 }
 
 .itemBtnCheck,
@@ -140,7 +142,8 @@ main {
 
 .itemBtnCheck,
 .itemBtnTrash {
-  height: 35px;
+  height: auto;
+  min-height: 35px;
   width: 35px;
   display: grid;
   align-items: center;
