@@ -61,13 +61,21 @@ main {
 }
 
 .inputSubmitBtn {
+  /* Resets defualt styling */
+  outline: none;
+  box-shadow: none;
+  border: none;
+  /* Normal Styling */
+  display: grid;
   width: 25px;
   height: 25px;
   transition: all 0.3s ease;
+  border-radius: 5px;
 }
 
 .inputSubmitBtn i {
   color: black;
+  align-self: center;
 }
 
 .fa-trash-can,
