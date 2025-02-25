@@ -42,7 +42,7 @@ function addTodo(event) {
   itemContainer.appendChild(itemBtnContainer);
 
   // Add the new item to the list
-  listContainer.appendChild(itemContainer);
+  listContainer.prepend(itemContainer);
 
   // Clear input field
   inputText.value = "";
